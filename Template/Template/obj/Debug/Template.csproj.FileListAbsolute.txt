@@ -50,3 +50,7 @@ C:\Mvc Projects\Template\Template\Template\obj\Debug\Template.dll
 C:\Mvc Projects\Template\Template\Template\obj\Debug\Template.pdb
 C:\Mvc Projects\Template\Template\Template\bin\Newtonsoft.Json.dll
 C:\Mvc Projects\Template\Template\Template\bin\Newtonsoft.Json.xml
+C:\Mvc Projects\Template\Template\Template\bin\Core.dll
+C:\Mvc Projects\Template\Template\Template\bin\EntityFramework.dll
+C:\Mvc Projects\Template\Template\Template\bin\Core.pdb
+C:\Mvc Projects\Template\Template\Template\bin\EntityFramework.xml
