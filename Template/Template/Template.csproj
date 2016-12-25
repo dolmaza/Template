@@ -43,6 +43,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Charts.v16.1.Core, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v16.1.Core, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v16.1.Core, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxTreeList.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.Mvc5.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -93,11 +110,89 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\plugins\adminLTE\css\AdminLTE.min.css" />
+    <Content Include="Content\plugins\adminLTE\css\skin-blue.min.css" />
+    <Content Include="Content\plugins\adminLTE\img\avatar.png" />
+    <Content Include="Content\plugins\adminLTE\img\avatar04.png" />
+    <Content Include="Content\plugins\adminLTE\img\avatar2.png" />
+    <Content Include="Content\plugins\adminLTE\img\avatar3.png" />
+    <Content Include="Content\plugins\adminLTE\img\avatar5.png" />
+    <Content Include="Content\plugins\adminLTE\img\boxed-bg.jpg" />
+    <Content Include="Content\plugins\adminLTE\img\boxed-bg.png" />
+    <Content Include="Content\plugins\adminLTE\img\credit\american-express.png" />
+    <Content Include="Content\plugins\adminLTE\img\credit\cirrus.png" />
+    <Content Include="Content\plugins\adminLTE\img\credit\mastercard.png" />
+    <Content Include="Content\plugins\adminLTE\img\credit\mestro.png" />
+    <Content Include="Content\plugins\adminLTE\img\credit\paypal.png" />
+    <Content Include="Content\plugins\adminLTE\img\credit\paypal2.png" />
+    <Content Include="Content\plugins\adminLTE\img\credit\visa.png" />
+    <Content Include="Content\plugins\adminLTE\img\default-50x50.gif" />
+    <Content Include="Content\plugins\adminLTE\img\icons.png" />
+    <Content Include="Content\plugins\adminLTE\img\photo1.png" />
+    <Content Include="Content\plugins\adminLTE\img\photo2.png" />
+    <Content Include="Content\plugins\adminLTE\img\photo3.jpg" />
+    <Content Include="Content\plugins\adminLTE\img\photo4.jpg" />
+    <Content Include="Content\plugins\adminLTE\img\user1-128x128.jpg" />
+    <Content Include="Content\plugins\adminLTE\img\user2-160x160.jpg" />
+    <Content Include="Content\plugins\adminLTE\img\user3-128x128.jpg" />
+    <Content Include="Content\plugins\adminLTE\img\user4-128x128.jpg" />
+    <Content Include="Content\plugins\adminLTE\img\user5-128x128.jpg" />
+    <Content Include="Content\plugins\adminLTE\img\user6-128x128.jpg" />
+    <Content Include="Content\plugins\adminLTE\img\user7-128x128.jpg" />
+    <Content Include="Content\plugins\adminLTE\img\user8-128x128.jpg" />
+    <Content Include="Content\plugins\adminLTE\js\app.min.js" />
+    <Content Include="Content\plugins\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\plugins\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\plugins\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\plugins\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\plugins\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\plugins\bootstrap\js\npm.js" />
+    <Content Include="Content\plugins\fancybox\blank.gif" />
+    <Content Include="Content\plugins\fancybox\fancybox_loading%402x.gif" />
+    <Content Include="Content\plugins\fancybox\fancybox_loading.gif" />
+    <Content Include="Content\plugins\fancybox\fancybox_overlay.png" />
+    <Content Include="Content\plugins\fancybox\fancybox_sprite%402x.png" />
+    <Content Include="Content\plugins\fancybox\fancybox_sprite.png" />
+    <Content Include="Content\plugins\fancybox\FancyMethods.js" />
+    <Content Include="Content\plugins\fancybox\helpers\fancybox_buttons.png" />
+    <Content Include="Content\plugins\fancybox\helpers\jquery.fancybox-buttons.css" />
+    <Content Include="Content\plugins\fancybox\helpers\jquery.fancybox-buttons.js" />
+    <Content Include="Content\plugins\fancybox\helpers\jquery.fancybox-media.js" />
+    <Content Include="Content\plugins\fancybox\helpers\jquery.fancybox-thumbs.css" />
+    <Content Include="Content\plugins\fancybox\helpers\jquery.fancybox-thumbs.js" />
+    <Content Include="Content\plugins\fancybox\jquery.fancybox.css" />
+    <Content Include="Content\plugins\fancybox\jquery.fancybox.js" />
+    <Content Include="Content\plugins\fancybox\jquery.fancybox.pack.js" />
+    <Content Include="Content\plugins\fastclick\fastclick.min.js" />
+    <Content Include="Content\plugins\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\plugins\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\plugins\jquery-ui-1.12.0\images\ui-icons_444444_256x240.png" />
+    <Content Include="Content\plugins\jquery-ui-1.12.0\images\ui-icons_555555_256x240.png" />
+    <Content Include="Content\plugins\jquery-ui-1.12.0\images\ui-icons_777620_256x240.png" />
+    <Content Include="Content\plugins\jquery-ui-1.12.0\images\ui-icons_777777_256x240.png" />
+    <Content Include="Content\plugins\jquery-ui-1.12.0\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Content\plugins\jquery-ui-1.12.0\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\plugins\jquery-ui-1.12.0\jquery-ui.min.css" />
+    <Content Include="Content\plugins\jquery-ui-1.12.0\jquery-ui.min.js" />
+    <Content Include="Content\plugins\jQuery\jQuery-2.1.4.min.js" />
+    <Content Include="Content\plugins\jQuery\jquery.numeric-input.js" />
+    <Content Include="Content\plugins\jQuery\masked-input.js" />
+    <Content Include="Content\plugins\slimScroll\jquery.slimscroll.min.js" />
+    <Content Include="Areas\Admin\Content\scripts\Dictionary\Index.js" />
+    <Content Include="Areas\Admin\Content\scripts\Permission\Index.js" />
+    <Content Include="Areas\Admin\Content\scripts\RolePermission\Index.js" />
+    <Content Include="Areas\Admin\Content\scripts\Role\Index.js" />
+    <Content Include="Areas\Admin\Content\scripts\User\Index.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Models\LayoutViewModel.cs" />
+    <Compile Include="Areas\Admin\Reusable\BaseClasses.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -109,6 +204,22 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Content\plugins\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Content\plugins\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\plugins\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\plugins\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\plugins\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\plugins\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\plugins\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\plugins\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Areas\Admin\Views\Shared\NotFound.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_PopupLayout.cshtml" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -118,10 +229,18 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Content\css\" />
+    <Folder Include="Content\images\" />
+    <Folder Include="Content\scripts\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{b349118e-9353-4551-b668-9e4e4a460216}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Service\Service.csproj">
       <Project>{1287a9a4-b5a3-48be-a9fb-7b9c89cbe99d}</Project>
       <Name>Service</Name>

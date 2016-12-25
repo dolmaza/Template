@@ -12,3 +12,5 @@ C:\Mvc Projects\Template\Template\Service\bin\Debug\Newtonsoft.Json.dll
 C:\Mvc Projects\Template\Template\Service\bin\Debug\EntityFramework.xml
 C:\Mvc Projects\Template\Template\Service\bin\Debug\EntityFramework.SqlServer.xml
 C:\Mvc Projects\Template\Template\Service\bin\Debug\Newtonsoft.Json.xml
+C:\Mvc Projects\Template\Template\Service\obj\Debug\Service.Properties.Resources.resources
+C:\Mvc Projects\Template\Template\Service\obj\Debug\Service.csproj.GenerateResource.Cache

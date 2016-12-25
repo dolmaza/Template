@@ -44,6 +44,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -54,10 +55,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IServices\IBaseService.cs" />
+    <Compile Include="IServices\IDictionaryService.cs" />
+    <Compile Include="IServices\IPermissionService.cs" />
+    <Compile Include="IServices\IRoleService.cs" />
+    <Compile Include="IServices\IUserService.cs" />
     <Compile Include="IUnitOfWork\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Services\BaseService.cs" />
+    <Compile Include="Services\DictionaryService.cs" />
+    <Compile Include="Services\PermissionService.cs" />
+    <Compile Include="Services\RoleService.cs" />
+    <Compile Include="Services\UserService.cs" />
     <Compile Include="UnitOfWork\UnitOfWork.cs" />
+    <Compile Include="Utilities\AjaxResponse.cs" />
+    <Compile Include="Utilities\AppSettings.cs" />
+    <Compile Include="Utilities\Enums.cs" />
+    <Compile Include="Utilities\SimpleKeyValue.cs" />
+    <Compile Include="Utilities\SuccessErrorMessageInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">
@@ -70,8 +89,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Utilities\" />
     <Folder Include="Validation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
