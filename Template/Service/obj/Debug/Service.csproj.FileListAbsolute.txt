@@ -1,0 +1,14 @@
+C:\Mvc Projects\Template\Template\Service\bin\Debug\Service.dll
+C:\Mvc Projects\Template\Template\Service\bin\Debug\Service.pdb
+C:\Mvc Projects\Template\Template\Service\bin\Debug\Core.dll
+C:\Mvc Projects\Template\Template\Service\bin\Debug\Core.pdb
+C:\Mvc Projects\Template\Template\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Mvc Projects\Template\Template\Service\obj\Debug\Service.dll
+C:\Mvc Projects\Template\Template\Service\obj\Debug\Service.pdb
+C:\Mvc Projects\Template\Template\Service\bin\Debug\Service.dll.config
+C:\Mvc Projects\Template\Template\Service\bin\Debug\EntityFramework.dll
+C:\Mvc Projects\Template\Template\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Mvc Projects\Template\Template\Service\bin\Debug\Newtonsoft.Json.dll
+C:\Mvc Projects\Template\Template\Service\bin\Debug\EntityFramework.xml
+C:\Mvc Projects\Template\Template\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Mvc Projects\Template\Template\Service\bin\Debug\Newtonsoft.Json.xml
