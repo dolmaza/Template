@@ -10,3 +10,5 @@ C:\Mvc Projects\Template\Template\Core\bin\Debug\EntityFramework.xml
 C:\Mvc Projects\Template\Template\Core\bin\Debug\EntityFramework.SqlServer.xml
 C:\Mvc Projects\Template\Template\Core\bin\Debug\Newtonsoft.Json.xml
 C:\Mvc Projects\Template\Template\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Mvc Projects\Template\Template\Core\obj\Debug\Core.Migrations.initDatabase.resources
+C:\Mvc Projects\Template\Template\Core\obj\Debug\Core.csproj.GenerateResource.Cache

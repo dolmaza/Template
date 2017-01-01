@@ -97,11 +97,29 @@ namespace Service.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Data saved successfully.
+        /// </summary>
+        public static string Success {
+            get {
+                return ResourceManager.GetString("Success", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Do you really want to delete?.
         /// </summary>
         public static string TextConfirmDelete {
             get {
                 return ResourceManager.GetString("TextConfirmDelete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email or Password is not correct.
+        /// </summary>
+        public static string ValidationInvalidEmailOrPassword {
+            get {
+                return ResourceManager.GetString("ValidationInvalidEmailOrPassword", resourceCulture);
             }
         }
     }

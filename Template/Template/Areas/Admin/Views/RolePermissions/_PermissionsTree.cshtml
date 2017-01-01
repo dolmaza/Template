@@ -1,0 +1,24 @@
+﻿@model RolePermissionsViewModel.RolePermissionsPermissionsTreeViewModel
+@Html.DevExpress().TreeList(settings =>
+{
+    settings = Model.GenerateTreeListDefaultSettings(settings);
+    settings.Name = "PermissionsTree";
+
+    settings.KeyFieldName = "ID";
+    settings.ParentFieldName = "ParentID";
+
+    settings.SettingsBehavior.AutoExpandAllNodes = true;
+    settings.SettingsSelection.Enabled = true;
+
+    settings.CallbackRouteValues = Model.ListUrl;
+    
+    settings.Columns.Add(column =>
+    {
+        column.FieldName = "Caption";
+        column.Caption = "Caption";
+        column.ColumnType = MVCxTreeListColumnType.TextBox;
+        column.Width = Unit.Pixel(200);
+        
+    });
+
+}).Bind(Model.TreeItems).GetHtml()

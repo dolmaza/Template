@@ -129,7 +129,13 @@
   <data name="FormatTime" xml:space="preserve">
     <value>HH:mm</value>
   </data>
+  <data name="Success" xml:space="preserve">
+    <value>Data saved successfully</value>
+  </data>
   <data name="TextConfirmDelete" xml:space="preserve">
     <value>Do you really want to delete?</value>
+  </data>
+  <data name="ValidationInvalidEmailOrPassword" xml:space="preserve">
+    <value>Email or Password is not correct</value>
   </data>
 </root>

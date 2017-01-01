@@ -7,10 +7,11 @@ using System;
 using System.Web.Mvc;
 using System.Web.UI.WebControls;
 using Template.Admin.Models;
+using Template.Admin.Reusable.FilterAttributes;
 
 namespace Template.Admin.Reusable
 {
-    //[BeforePageLoad]
+    [BeforePageLoad]
     [RouteArea("Admin", AreaPrefix = "admin")]
     public class BaseController : Controller
     {

@@ -8,6 +8,7 @@ namespace Service.UnitOfWork
     public class UnitOfWork : IUnitOfWork.IUnitOfWork
     {
         private readonly DbCoreDataContext _context;
+        private bool _disposed = false;
 
         public bool IsError { get; set; }
 
@@ -26,9 +27,23 @@ namespace Service.UnitOfWork
 
         }
 
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!this._disposed)
+            {
+                if (disposing)
+                {
+                    _context.Dispose();
+                }
+            }
+            this._disposed = true;
+        }
+
         public void Dispose()
         {
-            _context.Dispose();
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
 
 
@@ -43,6 +58,7 @@ namespace Service.UnitOfWork
                 IsError = true;
                 return -1;
             }
+
         }
     }
 }

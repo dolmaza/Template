@@ -1,0 +1,62 @@
+﻿@model RolePermissionsViewModel
+@{
+    ViewBag.Title = "Role Permissions";
+}
+
+@section HeaderSection {
+
+    @Html.DevExpress().GetStyleSheets(new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+        new StyleSheet {ExtensionSuite = ExtensionSuite.TreeList})
+    @Html.DevExpress().GetScripts(new Script { ExtensionSuite = ExtensionSuite.GridView },
+        new Script { ExtensionSuite = ExtensionSuite.TreeList })
+}
+
+
+@section Breadcramps{
+    <ol class="breadcrumb">
+        <li class="active"><a href="#"><i class="fa fa-dashboard"></i> @ViewBag.Title</a></li>
+    </ol>
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="box">
+            <div class="box-header with-border">
+                <h2 class="box-title">Role</h2>
+                <div class="box-tools pull-right">
+
+                </div>
+            </div>
+            <div class="box-body">
+                @Html.Partial("_RolesGrid", Model.RolesGridViewModel)
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="box">
+            <div class="box-header with-border">
+                <h3 class="box-title">Permissions</h3>
+                <a href="#" class="btn btn-flat btn-success pull-right save" title="Save role permissions"><i class="fa fa-floppy-o"></i></a>
+                <div class="box-tools pull-right">
+                </div>
+            </div>
+            <div class="box-body">
+                @Html.Partial("_PermissionsTree", Model.PermissionsTreeViewModel)
+            </div>
+            <div class="box-footer">
+                <div class="box-tools pull-right">
+                    <a href="#" class="btn btn-flat btn-success save" title="Save role permissions"><i class="fa fa-floppy-o"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section FooterSection {
+    <script>
+        var updateRolePermissionsUrl = "@Model.UpdateRolePermissionsUrl";
+        var getRolePermissionsUrl = "@Model.GetRolePermissionsUrl";
+    </script>
+    <script src="~/Content/plugins/bootbox/bootbox.min.js"></script>
+    <script src="~/Areas/Admin/Content/scripts/RolePermission/Index.js"></script>
+}

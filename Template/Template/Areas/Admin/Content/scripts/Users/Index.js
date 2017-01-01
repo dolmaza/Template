@@ -1,12 +1,12 @@
 ﻿$(function () {
     $("#add-new").click(function () {
-        UserGrid.AddNewRow();
+        UsersGrid.AddNewRow();
         return false;
     });
 });
 
 function OnIsActiveCheckBoxInit(s, e) {
-    if (UserGrid.IsNewRowEditing()) {
+    if (UsersGrid.IsNewRowEditing()) {
         s.SetValue(false);
     }
 }
