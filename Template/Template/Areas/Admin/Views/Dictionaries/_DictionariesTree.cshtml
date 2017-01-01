@@ -17,6 +17,8 @@
     settings.CommandColumn.DeleteButton.Visible = true;
     settings.CommandColumn.EditButton.Visible = true;
     settings.CommandColumn.VisibleIndex = 7;
+    settings.SettingsBehavior.AutoExpandAllNodes = true;
+
 
     settings.Columns.Add(column =>
     {
@@ -38,10 +40,7 @@
         column.Caption = "Caption Eng.";
         column.ColumnType = MVCxTreeListColumnType.TextBox;
         column.Width = Unit.Pixel(150);
-        var textboxProperties = column.PropertiesEdit as TextBoxProperties;
-        if (textboxProperties != null)
-        {
-        }
+        
     });
 
     settings.Columns.Add(column =>

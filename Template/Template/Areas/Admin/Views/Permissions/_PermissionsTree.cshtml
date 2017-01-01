@@ -2,7 +2,7 @@
 @Html.DevExpress().TreeList(settings =>
 {
     settings = Model.GenerateTreeListDefaultSettings(settings);
-    settings.Name = "PermissionTree";
+    settings.Name = "PermissionsTree";
 
     settings.KeyFieldName = "ID";
     settings.ParentFieldName = "ParentID";
@@ -18,6 +18,7 @@
     settings.CommandColumn.EditButton.Visible = true;
     settings.CommandColumn.VisibleIndex = 0;
     settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Auto;
+    settings.SettingsBehavior.AutoExpandAllNodes = true;
 
     settings.Columns.Add(column =>
     {
